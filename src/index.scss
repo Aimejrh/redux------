@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #000; /* Цвет текста */
+  --secondary-color: #fff; /* Цвет фона */
+  --button-color: #00f; /* Цвет кнопок */
+  --input-background-color: #fff; /* Фон для полей ввода */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+input,
+div {
+  color: var(--primary-color);
+  background-color: var(--input-background-color);
+}
+
+button {
+  color: var(--secondary-color);
+  background-color: var(--button-color);
+}
